@@ -9,8 +9,9 @@ data = "input/day_02.txt"
 dic_shapes = {"X":"A", "Y":"B", "Z":"C"}
 dic_scores= {"A":1, "B":2, "C":3}
 
-dic_win = {"A": "C", "B":"A", "C":"B"}
+dic_win =  {"A":"C", "B":"A", "C":"B"}
 dic_lose = {"A":"B", "B":"C", "C":"A"}
+
 with open(data) as f:
     lines = f.read().splitlines()
     output=[]

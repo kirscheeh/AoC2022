@@ -5,7 +5,6 @@ numbers = open("input/day_25.txt").read().splitlines()
 digits= {"2":2, "1":1, "0":0, "-":-1, "=":-2}
 
 total=0
-# 1, 5, 25, 125, 625, 3125
 for num in numbers:
     num = num[::-1]
     for i, c in enumerate(num):
